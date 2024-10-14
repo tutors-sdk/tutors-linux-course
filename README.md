@@ -6,6 +6,7 @@ Slides are saved as PDF for the course, but the maybe created in other applicati
 If the slides were created in an online tool such as Google docs the links to can be found here.
 
 * [Editors on Linux](https://docs.google.com/presentation/d/1iQTKr1-5JwLA6kUe7o5T1zsntGALLhuoiUmGGjtD8N8/edit?usp=sharing)
+* [Introduction to the terminal](https://docs.google.com/presentation/d/1sl5PQt0QYYLWk5I6vYnTAtQfaRv4gEQ3yN02c1_4d4E/edit?usp=sharing)
 
 ## Development
 
