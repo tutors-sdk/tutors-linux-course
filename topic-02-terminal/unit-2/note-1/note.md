@@ -30,5 +30,5 @@ ls -A -s
 In the first example command the [www.redhat.com](www.redhat.com) is an argument to the `--new-window`.
 An argument can be required on a flag or the command its self.
 It is more common for applications to treat words as arguments over a sentence.
-If you need to pass an argument to a command that with spaces by wrapping the string is quotes.
+If you need to pass an argument to a command with spaces, try wrapping the string in quotes `" "`.
 Double quotes are more the norm then using single quotes.
