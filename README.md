@@ -12,3 +12,10 @@ Serving the site can be done by the built-in python module `http.server`, which 
 ```sh
 python -m http.server -d public-site
 ```
+
+## Local Deployment
+
+To deploy the site locally and test your changes, you can use `make all`, which will build and then run a container that will be available at `localhost:8000`.
+```sh
+make all
+```

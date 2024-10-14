@@ -1,0 +1,27 @@
+# ContainerFile
+# This file is used to build a Docker container that serves the static website
+
+FROM node:22 AS build
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy necessary files
+COPY . ./
+
+# Build the static website
+RUN npx tutors-html
+
+FROM python:3.13.0-slim
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy the built static site from the previous stage
+COPY --from=build /usr/src/app/public-site ./public-site
+
+# Expose the desired port (e.g., 8000)
+EXPOSE 8000
+
+# Start the server to serve the generated static site
+CMD ["python3", "-m", "http.server", "8000", "-d", "public-site"]
