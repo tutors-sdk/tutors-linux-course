@@ -6,11 +6,14 @@ FROM node:22 AS build
 # Set the working directory
 WORKDIR /usr/src/app
 
+# Install required applications
+RUN npm install -g tutors-html
+
 # Copy necessary files
 COPY . ./
 
 # Build the static website
-RUN npx tutors-html
+RUN tutors-html
 
 FROM python:3.13.0-slim
 
