@@ -1,17 +1,5 @@
-# Reference Course
+# Linux as Your Daily Driver
 
-A short description of the course. This description will be available when the information icon in the top left selected.
-
-This can be any markdown document:
-
-- with the usual
-- markdown facilities
-
-## Can include Headings
-
-And even tables ...
-
-| Head 1 | Head 2 |
-| ------ | ------ |
-| cell 1 | cell 2 |
-| cell 3 | cell 4 |
+Linux powers millions of systems worldwide.
+This course introduces you to using Linux daily, focusing on essential tools for developers.
+Learn the skills and commands needed to navigate Linux with confidence and efficiency.
