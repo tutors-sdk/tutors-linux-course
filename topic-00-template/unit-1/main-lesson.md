@@ -1,2 +1,0 @@
-Main Lesson title
-

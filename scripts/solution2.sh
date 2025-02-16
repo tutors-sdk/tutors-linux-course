@@ -1,1 +1,0 @@
-mkdir -p html && echo -e "<h1>Proffessor Index</h1>\n<ul>" > html/index.html && grep Prof names.txt | while read -r line; do echo "<li><a href="./$(echo "$line" | awk '{print $2 $3}').html">$line</a></li>" >> html/index.html; done && echo "</ul>" >> html/index.html
